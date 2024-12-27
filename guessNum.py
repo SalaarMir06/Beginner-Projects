@@ -9,7 +9,7 @@ def guess():
     tries = 0
 
     # using while loop to iterate it x number of times
-    while guess !=randomNumber:
+    while guess !=randomNumber and start!=stop:
         guessNum = int(input("Enter a random number:   "))
         tries = tries + 1
         
